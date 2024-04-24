@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url(./background-2.avif);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  width: 90%;
+
+  padding: 10px 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 80px;
+  background-color: rgb(94, 94, 219);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form h1 {
+  color: rgb(232, 223, 223);
+  font-weight: 800;
+  margin-bottom: 20px;
+  align-self: center;
+}
+.form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background-color: rgb(224, 224, 230);
+  font-size: 16px;
+  color: rgb(3, 15, 15);
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+.form input::placeholder {
+  color: rgb(11, 4, 4);
+}
+.form textarea::placeholder {
+  color: rgb(6, 2, 2);
+}
+.form button {
+  width: 150px;
+  padding: 15px;
+  background-color: rgb(241, 38, 38);
+  color: white;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.form button:hover {
+  background-color: rgb(179, 59, 59);
+}
